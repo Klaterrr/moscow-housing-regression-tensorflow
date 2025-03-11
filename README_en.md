@@ -26,31 +26,31 @@ The project utilizes the [Moscow Housing Price Dataset](https://www.kaggle.com/d
 The [Moscow_Housing_Price_Prediction.ipynb](Moscow_Housing_Price_Prediction.ipynb) notebook is structured to guide you through the entire process of analyzing the dataset and building a predictive model:
 
 **1. Data Understanding & Cleaning:**
-    *   Loading the dataset and initial exploration using Pandas.
-    *   Handling missing values and duplicates.
-    *   Data type analysis and correction.
+*   Loading the dataset and initial exploration using Pandas.
+*   Handling missing values and duplicates.
+*   Data type analysis and correction.
 
 **2. Univariate Analysis:**
-    *   Analyzing the distribution of the target variable 'Price'.
-    *   Exploring the distributions of numerical and categorical features individually using histograms, boxplots, countplots, and descriptive statistics.
+*   Analyzing the distribution of the target variable 'Price'.
+*   Exploring the distributions of numerical and categorical features individually using histograms, boxplots, countplots, and descriptive statistics.
 
 **3. Bivariate & Multivariate Analysis:**
-    *   Investigating relationships between 'Price' and numerical features using scatter plots and correlation matrices.
-    *   Analyzing the relationship between 'Price' and categorical features using boxplots and bar plots.
-    *   Checking for multicollinearity among numerical features.
+*   Investigating relationships between 'Price' and numerical features using scatter plots and correlation matrices.
+*   Analyzing the relationship between 'Price' and categorical features using boxplots and bar plots.
+*   Checking for multicollinearity among numerical features.
 
 **4. Model Building:**
-    *   **Baseline Model (Linear Regression):** Building and evaluating a simple linear regression model.
-    *   **Random Forest Regressor:** Implementing and evaluating a Random Forest model, demonstrating improved performance.
-    *   **Hyperparameter Tuning with RandomizedSearchCV:** Optimizing the Random Forest model using RandomizedSearchCV to find the best hyperparameters and further enhance performance.
+*   **Baseline Model (Linear Regression):** Building and evaluating a simple linear regression model.
+*   **Random Forest Regressor:** Implementing and evaluating a Random Forest model, demonstrating improved performance.
+*   **Hyperparameter Tuning with RandomizedSearchCV:** Optimizing the Random Forest model using RandomizedSearchCV to find the best hyperparameters and further enhance performance.
 
 **5. Model Evaluation:**
-    *   Using metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and R-squared (R2) to assess model performance.
-    *   Comparing the performance of Linear Regression, Baseline Random Forest, and Tuned Random Forest.
+*   Using metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and R-squared (R2) to assess model performance.
+*   Comparing the performance of Linear Regression, Baseline Random Forest, and Tuned Random Forest.
 
 **6. Interactive Demo:**
-    *   A user-friendly demo at the end of the notebook allows you to input apartment characteristics and get price predictions from the trained models (Linear Regression and Tuned Random Forest).
-    *   Trained models and preprocessors are saved using `joblib` and loaded for real-time predictions.
+*   A user-friendly demo at the end of the notebook allows you to input apartment characteristics and get price predictions from the trained models (Linear Regression and Tuned Random Forest).
+*   Trained models and preprocessors are saved using `joblib` and loaded for real-time predictions.
 
 ## Models Used 🤖
 
